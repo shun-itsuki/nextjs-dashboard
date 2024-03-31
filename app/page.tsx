@@ -11,7 +11,7 @@ export default function Page() {
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
         <AcmeLogo />
       </div>
-      <h1 className="text-blue-500">I'm blue!</h1>
+      <h1 className="text-blue-500">{`I'm blue!`}</h1>
       <div
         className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent"
       />
@@ -22,7 +22,7 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
-            <strong>Welcome to Acme.</strong> This is the example for the{' '}
+            <strong>Welcome to Acme.</strong> This is the example for the{ }
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               Next.js Learn Course
             </a>
